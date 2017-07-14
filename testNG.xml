@@ -1,0 +1,38 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "TestNG Google_Keep">
+
+
+
+    <test name="LoginTest">
+        <classes>
+            <class name="testCases.loginTest"></class>
+        </classes>
+    </test>
+
+    <test name="CreateATestTest">
+        <classes>
+            <class name = "testCases.createANoteTest"></class>
+        </classes>
+    </test>
+
+    <test name="DeleteNoteTest">
+        <classes>
+            <class name = "testCases.deleteNoteTest"></class>
+        </classes>
+    </test>
+
+    <test name="ArchiveNoteTestt">
+        <classes>
+            <class name = "testCases.archiveNoteTest"></class>
+        </classes>
+    </test>
+
+    <test name="LogOutTest">
+        <classes>
+            <class name = "testCases.logOutTest"></class>
+        </classes>
+    </test>
+
+
+
+</suite>
